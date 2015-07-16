@@ -1,4 +1,12 @@
 * { margin: 0; padding: 0; }
+a{
+	text-decoration: none;
+}
+
+a:hover{
+	color: #00FFFF;
+	font-size: 1.5em;
+}
 body { font: 16px Georgia, serif; }
 
 #page-wrap { margin: 2% auto; color: white; }
@@ -9,3 +17,32 @@ section > div { padding: 20px; }
 header, nav, section { background: #eee; text-align: center;}
 footer { background: #eee; text-align: center;}
 nav span { margin: 0px 10px 0px 0px;}
+
+hr{
+	border: 1px dashed #FFF;
+}
+
+img{
+	border-radius: 10px;
+	max-width: 85%;
+}
+
+
+#principal{
+		background: #B7ACFF;
+		border-radius: 10px;
+		text-align: center;
+		margin: 0.5em auto;
+		max-width: 500px;
+	}
+
+	#des, #im {
+		padding: 5px;
+		background: #CAC1C1;
+		color: blue;
+		border-radius: 10px;
+		display: inline-block;
+		vertical-align: top;
+		margin: 0.5em auto;
+		max-width: 95%;
+	}
